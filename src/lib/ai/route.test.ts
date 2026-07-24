@@ -123,17 +123,18 @@ describe("rate limiting (§22.5)", () => {
     expect(rateLimit("ai:b", RATE_LIMIT.requests, RATE_LIMIT.windowMs).allowed).toBe(true);
   });
 
-  it("expires the window", () => {
+  it("expires the window", async () => {
     const key = "ai:expiring";
-    expect(rateLimit(key, 1, 1).allowed).toBe(true);
-    expect(rateLimit(key, 1, 1).allowed).toBe(false);
-    // A 1ms window has elapsed by the next tick.
-    return new Promise<void>((resolve) =>
-      setTimeout(() => {
-        expect(rateLimit(key, 1, 1).allowed).toBe(true);
-        resolve();
-      }, 5),
-    );
+    // A 50ms window, not 1ms: the two synchronous calls below are then
+    // guaranteed to land in the same window regardless of machine speed. With a
+    // 1ms window this raced — the second call could start a fresh window and be
+    // allowed, which made the test flaky rather than wrong-in-production.
+    const windowMs = 50;
+    expect(rateLimit(key, 1, windowMs).allowed).toBe(true);
+    expect(rateLimit(key, 1, windowMs).allowed).toBe(false);
+
+    await new Promise((resolve) => setTimeout(resolve, windowMs + 25));
+    expect(rateLimit(key, 1, windowMs).allowed).toBe(true);
   });
 
   it("returns 429 with a friendly message once the limit is spent", async () => {
