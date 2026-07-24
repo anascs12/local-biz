@@ -86,24 +86,47 @@ anything — it receives pre-computed figures and its only job is explanation an
 
 ## 📸 Screenshots
 
-> **Note:** image files go in `docs/screenshots/`. See [Adding screenshots](#adding-screenshots) below.
+> These are from a **real uploaded CSV** (241 transactions of Amazon sales data) that has **no cost
+> column** — so they also demonstrate the app's most important safety rule: rather than estimating,
+> every profit and margin figure is hidden or omitted. Look for it in each shot.
 
-### Dashboard — six KPIs, revenue & profit trends, category and product breakdowns
+### Dashboard
+Six KPIs, revenue trend, category and product breakdowns. **Total Profit and Profit Margin show
+"Add a cost column to unlock profit analysis" instead of a number** — profit is never estimated.
+
 ![Dashboard](docs/screenshots/dashboard.png)
 
-### Sales Analytics — order, unit and AOV trends with a day-of-week breakdown
+### Sales Analytics
+Revenue, orders, units and AOV trends with a Daily/Weekly/Monthly toggle (here auto-selected as
+Weekly), plus period growth for revenue, orders and AOV. **The profit chart is removed from the page
+entirely**, not shown empty.
+
 ![Sales Analytics](docs/screenshots/analytics.png)
 
-### Product Intelligence — six classifications with the rules shown to the user
+### Product Intelligence
+Per-product units, revenue, trend and badges, with the classification rules exposed to the user.
+**Only four classification chips appear** — 💰 Most Profitable and 🔎 Needs Attention are hidden
+because both require cost data, and the Cost/Profit/Margin columns are omitted.
+
 ![Product Intelligence](docs/screenshots/products.png)
 
-### Category Intelligence — revenue share, revenue vs profit, and growth per category
+### Category Intelligence
+Revenue share donut, category comparison and a sortable table. **The "Most profitable" highlight card
+is absent** and the revenue-vs-profit chart falls back to revenue only.
+
 ![Category Intelligence](docs/screenshots/categories.png)
 
-### AI Business Analyst — grounded answers in a four-part structure
+### AI Business Analyst
+The chat entry point, with the context inspector and suggested questions. **Only five suggestions are
+offered** — the three that ask about profit are filtered out. The banner explains that this
+deployment has no API key, so answers are computed rather than model-written.
+
 ![AI Analyst](docs/screenshots/analyst.png)
 
-### AI Business Report — eight sections generated from the computed metrics
+### AI Business Report
+The pre-generation view listing the eight sections that will be produced and the exact filter scope
+they cover.
+
 ![AI Report](docs/screenshots/report.png)
 
 ---
@@ -469,10 +492,6 @@ remove it from git history.
 | `npm test` | Run the test suite |
 | `npm run typecheck` | TypeScript, no emit |
 | `npm run generate:demo` | Regenerate the demo dataset (deterministic) |
-
-### Adding screenshots
-The images referenced above live in `docs/screenshots/`. Save them as `dashboard.png`,
-`analytics.png`, `products.png`, `categories.png`, `analyst.png` and `report.png`, then commit.
 
 ---
 
