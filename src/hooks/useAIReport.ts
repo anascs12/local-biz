@@ -12,8 +12,13 @@ import type { AIContext } from "@/types/aiContext";
 import { AI_ERRORS } from "@/lib/validation/messages";
 import { useDatasetContext } from "@/context/DatasetContext";
 import { useAnalytics } from "./useAnalytics";
+import { useAIStatus } from "./useAIStatus";
+import { deterministicReport } from "@/lib/ai/deterministic";
 
 export type ReportStatus = "idle" | "generating" | "done" | "error";
+
+/** How the visible report was produced — the UI must label this honestly. */
+export type ReportSource = "ai" | "computed";
 
 export interface UseAIReportResult {
   status: ReportStatus;
@@ -22,17 +27,22 @@ export interface UseAIReportResult {
   /** Set when generation completes, for the report header (§9.8). */
   generatedAt: Date | null;
   context: AIContext | null;
+  /** "computed" means generated in TypeScript, with no model involved. */
+  source: ReportSource;
+  aiAvailable: boolean;
   generate: () => void;
 }
 
 export function useAIReport(): UseAIReportResult {
   const { dataset, filters } = useDatasetContext();
   const analytics = useAnalytics();
+  const aiStatus = useAIStatus();
 
   const [status, setStatus] = React.useState<ReportStatus>("idle");
   const [markdown, setMarkdown] = React.useState("");
   const [error, setError] = React.useState<string | null>(null);
   const [generatedAt, setGeneratedAt] = React.useState<Date | null>(null);
+  const [source, setSource] = React.useState<ReportSource>("ai");
 
   const context = React.useMemo(
     () => (dataset && analytics ? buildAIContext(dataset, filters, { analytics }) : null),
@@ -47,6 +57,17 @@ export function useAIReport(): UseAIReportResult {
       setStatus("error");
       return;
     }
+    // No key on this deployment → produce the computed report instead of an
+    // error. It is grounded in the same analytics and is labelled as computed.
+    if (aiStatus === "disabled" && analytics && dataset) {
+      setSource("computed");
+      setMarkdown(deterministicReport(dataset, analytics, filters));
+      setGeneratedAt(new Date());
+      setStatus("done");
+      return;
+    }
+
+    setSource("ai");
     setStatus("generating");
     setError(null);
     setMarkdown("");
@@ -60,6 +81,14 @@ export function useAIReport(): UseAIReportResult {
       });
 
       if (!response.ok || !response.body) {
+        // Fall back to the computed report rather than showing a dead end.
+        if (analytics && dataset) {
+          setSource("computed");
+          setMarkdown(deterministicReport(dataset, analytics, filters));
+          setGeneratedAt(new Date());
+          setStatus("done");
+          return;
+        }
         const message = (await response.text().catch(() => "")) || AI_ERRORS.unavailable;
         setError(message);
         setStatus("error");
@@ -91,7 +120,16 @@ export function useAIReport(): UseAIReportResult {
       );
       setStatus("error");
     }
-  }, [context, status]);
+  }, [context, status, aiStatus, analytics, dataset, filters]);
 
-  return { status, markdown, error, generatedAt, context, generate };
+  return {
+    status,
+    markdown,
+    error,
+    generatedAt,
+    context,
+    source,
+    aiAvailable: aiStatus === "enabled",
+    generate,
+  };
 }

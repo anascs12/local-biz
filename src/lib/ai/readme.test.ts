@@ -12,7 +12,9 @@ import { REPORT_SECTIONS } from "./uiCopy";
  * that the two stay in sync by hand, this test fails the build if the prompt is
  * ever edited in one place and not the other.
  */
-const README = readFileSync(join(process.cwd(), "README.md"), "utf8");
+// Normalize line endings: .gitattributes stores LF, but a Windows working copy
+// may check out CRLF. The prompt text is still compared verbatim.
+const README = readFileSync(join(process.cwd(), "README.md"), "utf8").replace(/\r\n/g, "\n");
 
 describe("README (§28)", () => {
   it("contains the analyst system prompt VERBATIM", () => {

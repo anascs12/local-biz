@@ -18,10 +18,13 @@ export function MessageBubble({
   role,
   content,
   streaming = false,
+  computed = false,
 }: {
   role: "user" | "assistant";
   content: string;
   streaming?: boolean;
+  /** True when this reply was computed in TypeScript, not produced by a model. */
+  computed?: boolean;
 }) {
   if (role === "user") {
     return (
@@ -50,6 +53,11 @@ export function MessageBubble({
           "[&_td]:border-b [&_td]:border-border [&_td]:py-1",
         )}
       >
+        {computed && (
+          <p className="mb-2 flex items-center gap-1.5 text-caption font-medium text-text-400">
+            <span aria-hidden="true">🧮</span> Computed from your data — not AI-generated
+          </p>
+        )}
         <Markdown>{content}</Markdown>
         {streaming && (
           <span

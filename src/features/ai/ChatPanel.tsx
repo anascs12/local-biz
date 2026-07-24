@@ -43,7 +43,8 @@ function SuggestedQuestions({
 }
 
 export function ChatPanel({ hasCostData }: { hasCostData: boolean }) {
-  const { messages, streaming, isStreaming, error, context, send, retry } = useAIChat();
+  const { messages, sources, aiAvailable, streaming, isStreaming, error, context, send, retry } =
+    useAIChat();
   const [input, setInput] = React.useState("");
   const endRef = React.useRef<HTMLDivElement>(null);
 
@@ -69,6 +70,20 @@ export function ChatPanel({ hasCostData }: { hasCostData: boolean }) {
         </p>
       </div>
 
+      {!aiAvailable && (
+        <div
+          role="status"
+          className="rounded-lg border border-warning/30 bg-[#FFFBEB] px-4 py-3 text-small text-text-600"
+        >
+          <strong className="font-medium text-text-900">Offline analysis mode.</strong> This
+          deployment has no AI API key configured, so answers below are{" "}
+          <strong className="font-medium text-text-900">computed directly from your data</strong> in
+          the browser rather than written by a language model. They use the same figures the
+          dashboard shows. Add an <code>ANTHROPIC_API_KEY</code> to enable the conversational
+          analyst.
+        </div>
+      )}
+
       {/* Required trust feature (§9.7) */}
       <ContextInspector context={context} />
 
@@ -79,7 +94,12 @@ export function ChatPanel({ hasCostData }: { hasCostData: boolean }) {
       ) : (
         <div className="flex flex-col gap-4">
           {messages.map((m, i) => (
-            <MessageBubble key={i} role={m.role} content={m.content} />
+            <MessageBubble
+              key={i}
+              role={m.role}
+              content={m.content}
+              computed={m.role === "assistant" && sources[i] === "computed"}
+            />
           ))}
           {isStreaming && streaming.length > 0 && (
             <MessageBubble role="assistant" content={streaming} streaming />

@@ -80,6 +80,8 @@ Click **"Try the demo"** to explore with sample data. No signup, no upload, no e
 - AI Business Analyst: conversational, grounded in your computed metrics
 - AI Business Report: an eight-section written report with metric-backed recommendations
 - A context inspector showing exactly what was sent to the model
+- **Offline analysis mode** — when no API key is configured, the analyst and report are computed
+  directly from your data in TypeScript instead of failing, and are labelled as computed
 
 ## AI Feature
 
@@ -136,6 +138,25 @@ field by field from an explicit allowlist — it never spreads a transaction rec
 cities, order IDs and any unrecognized column are therefore structurally incapable of reaching the
 model. This is covered by a dedicated regression test that asserts no customer value appears
 anywhere in the serialized payload.
+
+### Running without an API key
+
+The AI features call a paid API. A deployment without a key would otherwise show an error where
+the headline feature should be, so the app degrades into **offline analysis mode**:
+
+- `/api/ai-status` reports whether a key is configured, and the UI says so up front rather than
+  after you type a question.
+- The analyst answers the suggested questions, and the report produces all eight sections, from
+  the **same analytics the dashboard uses** — computed in TypeScript, with no model involved.
+- Every such response is labelled **"Computed from your data — not AI-generated"**, and the report
+  footer swaps to a disclaimer that does not claim AI authorship. Nothing computed is ever passed
+  off as model output.
+- The §12.5 cost rule still holds: with no cost column, the offline path produces no profit or
+  margin figure either, and says so.
+
+This extends a pattern the spec already establishes for insight cards ("fall back to deterministic
+insight cards computed in TypeScript") to the report and the suggested questions. Set
+`ANTHROPIC_API_KEY` to switch back to the conversational model.
 
 ### How insights are generated
 
@@ -306,8 +327,10 @@ npm run dev
 
 Open <http://localhost:3000> and click **"Try the demo"**.
 
-The dashboard, analytics, product and category pages work without an API key — only the two AI
-features need one.
+**The API key is optional.** Without it every page still works: the dashboard, analytics, product
+and category pages are fully deterministic, and the analyst and report run in offline analysis
+mode (computed, clearly labelled). Add a key only if you want the conversational, model-written
+version.
 
 | Script | What it does |
 |---|---|
@@ -434,8 +457,11 @@ An honest list.
   products are excluded from Growing/Declining rather than being classified on thin evidence.
 - **Ceilings: 10 MB file size and 100,000 rows.** Both are checked before parsing.
 - **English only. PKR only.**
-- **AI responses depend on a third-party API and can fail.** The dashboard and analytics are
-  unaffected when they do.
+- **AI responses depend on a third-party API and can fail**, and that API is paid. The dashboard
+  and analytics are unaffected. Without a key — or when a request fails — the analyst and report
+  fall back to **computed** analysis rather than erroring, clearly labelled as not AI-generated.
+  The offline path answers the suggested questions but cannot handle free-form ones; that needs
+  the model.
 - **Rate limiting is in-memory** (20 requests per IP per hour) and resets on cold start. It is a
   courtesy limit, not a security control; a durable store is a future improvement.
 - **Large files parse on the main thread.** A Web Worker for files over 5,000 rows is planned but
