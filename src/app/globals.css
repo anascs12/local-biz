@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base app surface — SPEC §20.1 / §20.2 */
+:root {
+  color-scheme: light;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  @apply bg-bg-app text-text-600 antialiased;
+  font-family: theme("fontFamily.sans");
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* §20.3 — tabular numerals so columns of figures align */
+.nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* §20.7 — visible 2px primary-600 focus ring on every interactive element */
+:where(a, button, input, select, textarea, [tabindex]):focus-visible {
+  outline: 2px solid theme("colors.primary.600");
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* §20.5 — slow pulse for skeletons (no spinners) */
+@keyframes skeleton-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.55;
+  }
+}
+.animate-skeleton {
+  animation: skeleton-pulse 1.6s ease-in-out infinite;
+}

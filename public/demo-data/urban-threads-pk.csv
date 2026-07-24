@@ -1,0 +1,521 @@
+order_date,order_id,product_name,category,quantity,unit_price,revenue,cost,customer_city
+2025-08-01,UT-10001,Printed T-Shirt,Shirts,2,1500,3000,2102,Peshawar
+2025-08-01,UT-10002,Cotton Chinos,Trousers,1,2790,2790,1951,Islamabad
+2025-08-02,UT-10003,Printed T-Shirt,Shirts,2,1460,2920,2180,Multan
+2025-08-02,UT-10004,Cotton Chinos,Trousers,1,2790,2790,1986,Hyderabad
+2025-08-02,UT-10005,Silk Dupatta,Accessories,3,4430,13290,6453,Sialkot
+2025-08-02,UT-10006,Leather Loafers,Footwear,1,5600,5600,4067,Karachi
+2025-08-03,UT-10007,Printed T-Shirt,Shirts,2,1530,3060,2246,Islamabad
+2025-08-03,UT-10008,Slim Fit Jeans,Trousers,2,3160,6320,4520,Peshawar
+2025-08-03,UT-10009,Leather Belt,Accessories,2,1230,2460,1632,Islamabad
+2025-08-03,UT-10010,Cotton Cap,Accessories,2,830,1660,1210,Islamabad
+2025-08-04,UT-10011,Classic Blue Shirt,Shirts,2,2400,4800,3782,Multan
+2025-08-04,UT-10012,Slim Fit Jeans,Trousers,2,3240,6480,4872,Islamabad
+2025-08-05,UT-10013,Denim Jacket,Outerwear,1,4490,4490,3350,Peshawar
+2025-08-05,UT-10014,Leather Loafers,Footwear,1,5610,5610,4205,Hyderabad
+2025-08-06,UT-10015,Cotton Kurta,Kurtas,2,2020,4040,2948,Lahore
+2025-08-06,UT-10016,Leather Belt,Accessories,2,1170,2340,1580,Rawalpindi
+2025-08-07,UT-10017,Printed T-Shirt,Shirts,2,1490,2980,2170,Faisalabad
+2025-08-07,UT-10018,Printed T-Shirt,Shirts,2,1460,2920,2100,Multan
+2025-08-07,UT-10019,Formal Dress Pants,Trousers,1,3070,3070,2126,Karachi
+2025-08-07,UT-10020,Leather Loafers,Footwear,1,5340,5340,3842,Rawalpindi
+2025-08-08,UT-10021,Printed T-Shirt,Shirts,2,1530,3060,2256,Islamabad
+2025-08-09,UT-10022,Classic Blue Shirt,Shirts,2,2410,4820,4098,Faisalabad
+2025-08-09,UT-10023,Printed T-Shirt,Shirts,2,1470,2940,2070,Rawalpindi
+2025-08-09,UT-10024,White Formal Shirt,Shirts,2,2530,5060,3522,Peshawar
+2025-08-09,UT-10025,White Formal Shirt,Shirts,2,2650,5300,3788,Rawalpindi
+2025-08-09,UT-10026,Leather Belt,Accessories,2,1210,2420,1660,Karachi
+2025-08-09,UT-10027,Cotton Cap,Accessories,2,850,1700,1240,Peshawar
+2025-08-09,UT-10028,Clearance Chappal,Footwear,2,600,1200,1450,Multan
+2025-08-10,UT-10029,Cotton Chinos,Trousers,1,2790,2790,2018,Multan
+2025-08-10,UT-10030,Embroidered Kurta,Kurtas,1,3560,3560,2430,Peshawar
+2025-08-10,UT-10031,Leather Belt,Accessories,2,1180,2360,1622,Gujranwala
+2025-08-11,UT-10032,Printed T-Shirt,Shirts,2,1490,2980,2138,Faisalabad
+2025-08-11,UT-10033,Clearance Chappal,Footwear,1,610,610,718,Multan
+2025-08-12,UT-10034,Checkered Casual Shirt,Shirts,2,2070,4140,2932,Sialkot
+2025-08-12,UT-10035,Silk Dupatta,Accessories,2,4630,9260,4552,Rawalpindi
+2025-08-12,UT-10036,Clearance Chappal,Footwear,1,600,600,701,Hyderabad
+2025-08-13,UT-10037,Printed T-Shirt,Shirts,2,1530,3060,2162,Peshawar
+2025-08-13,UT-10038,Slim Fit Jeans,Trousers,2,3240,6480,4908,Rawalpindi
+2025-08-13,UT-10039,Silk Dupatta,Accessories,3,4600,13800,6660,Faisalabad
+2025-08-14,UT-10040,Slim Fit Jeans,Trousers,2,3240,6480,4676,Faisalabad
+2025-08-14,UT-10041,Formal Dress Pants,Trousers,2,3080,6160,4322,Rawalpindi
+2025-08-14,UT-10042,Embroidered Kurta,Kurtas,2,3590,7180,4870,Sialkot
+2025-08-15,UT-10043,Classic Blue Shirt,Shirts,2,2330,4660,3734,Faisalabad
+2025-08-15,UT-10044,Cotton Cap,Accessories,2,850,1700,1230,Lahore
+2025-08-16,UT-10045,Formal Dress Pants,Trousers,2,2980,5960,4106,Sialkot
+2025-08-16,UT-10046,Cotton Cap,Accessories,2,840,1680,1198,Gujranwala
+2025-08-17,UT-10047,Printed T-Shirt,Shirts,2,1490,2980,2196,Gujranwala
+2025-08-17,UT-10048,Embroidered Kurta,Kurtas,2,3480,6960,4662,Sialkot
+2025-08-17,UT-10049,Cotton Kurta,Kurtas,2,1980,3960,2930,Multan
+2025-08-17,UT-10050,Cotton Kurta,Kurtas,2,1950,3900,2798,Lahore
+2025-08-17,UT-10051,Leather Jacket,Outerwear,1,8260,8260,6167,Faisalabad
+2025-08-17,UT-10052,Leather Jacket,Outerwear,1,8660,8660,6201,Multan
+2025-08-17,UT-10053,Leather Belt,Accessories,2,1230,2460,1646,Gujranwala
+2025-08-18,UT-10054,Cotton Chinos,Trousers,1,2820,2820,2092,Rawalpindi
+2025-08-18,UT-10055,Leather Belt,Accessories,2,1200,2400,1622,Rawalpindi
+2025-08-19,UT-10056,Classic Blue Shirt,Shirts,2,2380,4760,3886,Sialkot
+2025-08-19,UT-10057,Classic Blue Shirt,Shirts,2,2470,4940,3906,Islamabad
+2025-08-19,UT-10058,White Formal Shirt,Shirts,2,2670,5340,3724,Gujranwala
+2025-08-20,UT-10059,Slim Fit Jeans,Trousers,2,3190,6380,4710,Multan
+2025-08-20,UT-10060,Wedding Sherwani Kurta,Kurtas,1,6660,6660,4384,Faisalabad
+2025-08-20,UT-10061,Woolen Scarf,Accessories,2,950,1900,1292,Hyderabad
+2025-08-20,UT-10062,Cotton Cap,Accessories,2,830,1660,1178,Sialkot
+2025-08-21,UT-10063,Slim Fit Jeans,Trousers,2,3230,6460,4622,Sialkot
+2025-08-22,UT-10064,Classic Blue Shirt,Shirts,2,2460,4920,4004,Multan
+2025-08-22,UT-10065,Printed T-Shirt,Shirts,2,1470,2940,2188,Rawalpindi
+2025-08-22,UT-10066,Checkered Casual Shirt,Shirts,2,2070,4140,2930,Faisalabad
+2025-08-22,UT-10067,Embroidered Kurta,Kurtas,1,3600,3600,2459,Islamabad
+2025-08-22,UT-10068,Leather Loafers,Footwear,1,5400,5400,3862,Faisalabad
+2025-08-23,UT-10069,Classic Blue Shirt,Shirts,2,2430,4860,4128,Peshawar
+2025-08-23,UT-10070,Classic Blue Shirt,Shirts,2,2420,4840,4102,Islamabad
+2025-08-23,UT-10071,Printed T-Shirt,Shirts,2,1530,3060,2130,Islamabad
+2025-08-23,UT-10072,Printed T-Shirt,Shirts,2,1500,3000,2180,Sialkot
+2025-08-23,UT-10073,Checkered Casual Shirt,Shirts,2,2070,4140,2920,Gujranwala
+2025-08-24,UT-10074,Cotton Kurta,Kurtas,2,1980,3960,2926,Karachi
+2025-08-25,UT-10075,Checkered Casual Shirt,Shirts,2,2130,4260,3154,Multan
+2025-08-26,UT-10076,Silk Dupatta,Accessories,2,4630,9260,4578,Sialkot
+2025-08-27,UT-10077,Classic Blue Shirt,Shirts,3,2430,7290,5910,Karachi
+2025-08-27,UT-10078,White Formal Shirt,Shirts,1,2650,2650,1875,Multan
+2025-08-27,UT-10079,Slim Fit Jeans,Trousers,2,3140,6280,4522,Faisalabad
+2025-08-28,UT-10080,Classic Blue Shirt,Shirts,2,2390,4780,3800,Hyderabad
+2025-08-28,UT-10081,White Formal Shirt,Shirts,2,2620,5240,3622,Karachi
+2025-08-29,UT-10082,Classic Blue Shirt,Shirts,2,2400,4800,3802,Rawalpindi
+2025-08-29,UT-10083,Denim Jacket,Outerwear,1,4400,4400,3301,Peshawar
+2025-08-30,UT-10084,Cotton Kurta,Kurtas,2,1980,3960,2906,Sialkot
+2025-08-30,UT-10085,Wedding Sherwani Kurta,Kurtas,1,6470,6470,4220,Gujranwala
+2025-08-30,UT-10086,Denim Jacket,Outerwear,1,4400,4400,3114,Faisalabad
+2025-08-31,UT-10087,Classic Blue Shirt,Shirts,2,2370,4740,4006,Gujranwala
+2025-08-31,UT-10088,Printed T-Shirt,Shirts,2,1540,3080,2162,Karachi
+2025-09-01,UT-10089,Printed T-Shirt,Shirts,2,1490,2980,2198,Karachi
+2025-09-01,UT-10090,Formal Dress Pants,Trousers,1,3070,3070,2106,Islamabad
+2025-09-02,UT-10091,Slim Fit Jeans,Trousers,2,3210,6420,4584,Faisalabad
+2025-09-02,UT-10092,Cotton Cap,Accessories,2,850,1700,1192,Islamabad
+2025-09-03,UT-10093,Silk Dupatta,Accessories,3,4450,13350,6348,Multan
+2025-09-04,UT-10094,Printed T-Shirt,Shirts,2,1520,3040,2254,Lahore
+2025-09-04,UT-10095,White Formal Shirt,Shirts,2,2640,5280,3702,Rawalpindi
+2025-09-04,UT-10096,Slim Fit Jeans,Trousers,2,3200,6400,4908,Faisalabad
+2025-09-04,UT-10097,Silk Dupatta,Accessories,2,4470,8940,4148,Multan
+2025-09-05,UT-10098,Classic Blue Shirt,Shirts,2,2420,4840,4128,Lahore
+2025-09-05,UT-10099,Printed T-Shirt,Shirts,2,1540,3080,2286,Faisalabad
+2025-09-05,UT-10100,Wedding Sherwani Kurta,Kurtas,1,6640,6640,4610,Faisalabad
+2025-09-06,UT-10101,Classic Blue Shirt,Shirts,2,2340,4680,3984,Multan
+2025-09-06,UT-10102,Silk Dupatta,Accessories,3,4430,13290,6261,Hyderabad
+2025-09-06,UT-10103,Cotton Cap,Accessories,2,850,1700,1184,Karachi
+2025-09-07,UT-10104,Classic Blue Shirt,Shirts,3,2360,7080,5733,Lahore
+2025-09-07,UT-10105,Leather Jacket,Outerwear,1,8440,8440,6083,Faisalabad
+2025-09-08,UT-10106,Classic Blue Shirt,Shirts,2,2470,4940,4030,Sialkot
+2025-09-08,UT-10107,Woolen Scarf,Accessories,2,970,1940,1402,Sialkot
+2025-09-09,UT-10108,Printed T-Shirt,Shirts,2,1520,3040,2162,Islamabad
+2025-09-09,UT-10109,White Formal Shirt,Shirts,1,2670,2670,1954,Multan
+2025-09-09,UT-10110,Slim Fit Jeans,Trousers,2,3150,6300,4788,Rawalpindi
+2025-09-09,UT-10111,Silk Dupatta,Accessories,3,4570,13710,6537,Karachi
+2025-09-10,UT-10112,Classic Blue Shirt,Shirts,2,2360,4720,3964,Sialkot
+2025-09-10,UT-10113,White Formal Shirt,Shirts,2,2580,5160,3792,Gujranwala
+2025-09-10,UT-10114,Leather Loafers,Footwear,1,5380,5380,3793,Hyderabad
+2025-09-11,UT-10115,Classic Blue Shirt,Shirts,2,2410,4820,3884,Faisalabad
+2025-09-11,UT-10116,Checkered Casual Shirt,Shirts,2,2100,4200,3100,Rawalpindi
+2025-09-11,UT-10117,Slim Fit Jeans,Trousers,2,3290,6580,4724,Hyderabad
+2025-09-11,UT-10118,Wedding Sherwani Kurta,Kurtas,1,6410,6410,4237,Multan
+2025-09-11,UT-10119,Leather Loafers,Footwear,1,5350,5350,3776,Hyderabad
+2025-09-12,UT-10120,Embroidered Kurta,Kurtas,1,3520,3520,2480,Sialkot
+2025-09-12,UT-10121,Leather Loafers,Footwear,1,5580,5580,3998,Sialkot
+2025-09-13,UT-10122,Leather Belt,Accessories,2,1190,2380,1664,Lahore
+2025-09-14,UT-10123,Slim Fit Jeans,Trousers,2,3230,6460,4890,Multan
+2025-09-14,UT-10124,Cotton Chinos,Trousers,2,2860,5720,4208,Peshawar
+2025-09-14,UT-10125,Cotton Chinos,Trousers,2,2800,5600,4046,Hyderabad
+2025-09-14,UT-10126,Cotton Chinos,Trousers,1,2750,2750,2018,Hyderabad
+2025-09-15,UT-10127,Embroidered Kurta,Kurtas,2,3460,6920,4748,Lahore
+2025-09-15,UT-10128,Clearance Chappal,Footwear,2,600,1200,1282,Rawalpindi
+2025-09-16,UT-10129,Classic Blue Shirt,Shirts,3,2380,7140,5760,Hyderabad
+2025-09-16,UT-10130,Leather Belt,Accessories,2,1160,2320,1638,Faisalabad
+2025-09-17,UT-10131,Printed T-Shirt,Shirts,2,1500,3000,2078,Lahore
+2025-09-17,UT-10132,Denim Jacket,Outerwear,1,4550,4550,3221,Karachi
+2025-09-17,UT-10133,Leather Belt,Accessories,2,1180,2360,1640,Rawalpindi
+2025-09-17,UT-10134,Leather Belt,Accessories,2,1190,2380,1618,Faisalabad
+2025-09-18,UT-10135,Cotton Kurta,Kurtas,1,1940,1940,1449,Hyderabad
+2025-09-19,UT-10136,Printed T-Shirt,Shirts,2,1500,3000,2198,Karachi
+2025-09-19,UT-10137,Denim Jacket,Outerwear,1,4570,4570,3432,Lahore
+2025-09-20,UT-10138,Classic Blue Shirt,Shirts,2,2430,4860,3944,Rawalpindi
+2025-09-20,UT-10139,Formal Dress Pants,Trousers,1,3010,3010,2205,Lahore
+2025-09-20,UT-10140,Clearance Chappal,Footwear,2,580,1160,1152,Hyderabad
+2025-09-22,UT-10141,Formal Dress Pants,Trousers,1,2990,2990,2150,Lahore
+2025-09-22,UT-10142,Clearance Chappal,Footwear,2,600,1200,1368,Multan
+2025-09-23,UT-10143,Slim Fit Jeans,Trousers,2,3220,6440,4860,Lahore
+2025-09-24,UT-10144,Checkered Casual Shirt,Shirts,2,2110,4220,3026,Peshawar
+2025-09-24,UT-10145,Leather Jacket,Outerwear,1,8630,8630,6391,Faisalabad
+2025-09-24,UT-10146,Cotton Cap,Accessories,2,840,1680,1150,Islamabad
+2025-09-25,UT-10147,Cotton Cap,Accessories,2,840,1680,1164,Hyderabad
+2025-09-26,UT-10148,Checkered Casual Shirt,Shirts,2,2080,4160,3054,Karachi
+2025-09-27,UT-10149,White Formal Shirt,Shirts,2,2570,5140,3758,Sialkot
+2025-09-27,UT-10150,Embroidered Kurta,Kurtas,2,3470,6940,4706,Faisalabad
+2025-09-27,UT-10151,Leather Belt,Accessories,2,1180,2360,1654,Peshawar
+2025-09-28,UT-10152,Cotton Kurta,Kurtas,2,1970,3940,2964,Rawalpindi
+2025-09-29,UT-10153,Classic Blue Shirt,Shirts,2,2400,4800,4064,Gujranwala
+2025-09-29,UT-10154,Printed T-Shirt,Shirts,2,1460,2920,2108,Karachi
+2025-09-29,UT-10155,Cotton Chinos,Trousers,1,2740,2740,1951,Islamabad
+2025-09-29,UT-10156,Cotton Kurta,Kurtas,2,2050,4100,3096,Hyderabad
+2025-09-29,UT-10157,Wool Blend Coat,Outerwear,1,8100,8100,5802,Islamabad
+2025-09-30,UT-10158,Printed T-Shirt,Shirts,2,1490,2980,2064,Karachi
+2025-09-30,UT-10159,White Formal Shirt,Shirts,2,2540,5080,3774,Peshawar
+2025-09-30,UT-10160,Checkered Casual Shirt,Shirts,2,2110,4220,3130,Islamabad
+2025-10-01,UT-10161,Clearance Chappal,Footwear,1,590,590,576,Hyderabad
+2025-10-02,UT-10162,Printed T-Shirt,Shirts,3,1480,4440,3273,Sialkot
+2025-10-02,UT-10163,Cotton Chinos,Trousers,2,2870,5740,4192,Islamabad
+2025-10-04,UT-10164,White Formal Shirt,Shirts,2,2620,5240,3860,Gujranwala
+2025-10-05,UT-10165,Checkered Casual Shirt,Shirts,2,2050,4100,3022,Lahore
+2025-10-05,UT-10166,Embroidered Kurta,Kurtas,1,3400,3400,2277,Islamabad
+2025-10-06,UT-10167,Wedding Sherwani Kurta,Kurtas,1,6360,6360,4131,Hyderabad
+2025-10-06,UT-10168,Woolen Scarf,Accessories,2,970,1940,1326,Faisalabad
+2025-10-07,UT-10169,Printed T-Shirt,Shirts,2,1520,3040,2122,Lahore
+2025-10-07,UT-10170,White Formal Shirt,Shirts,1,2550,2550,1823,Multan
+2025-10-07,UT-10171,Slim Fit Jeans,Trousers,2,3260,6520,4698,Multan
+2025-10-07,UT-10172,Cotton Kurta,Kurtas,2,2010,4020,2864,Karachi
+2025-10-08,UT-10173,Classic Blue Shirt,Shirts,2,2450,4900,3972,Gujranwala
+2025-10-08,UT-10174,Classic Blue Shirt,Shirts,2,2420,4840,3982,Karachi
+2025-10-08,UT-10175,Printed T-Shirt,Shirts,2,1480,2960,2102,Sialkot
+2025-10-08,UT-10176,Slim Fit Jeans,Trousers,2,3120,6240,4742,Hyderabad
+2025-10-08,UT-10177,Formal Dress Pants,Trousers,2,3020,6040,4244,Multan
+2025-10-08,UT-10178,Embroidered Kurta,Kurtas,2,3550,7100,4948,Hyderabad
+2025-10-09,UT-10179,Checkered Casual Shirt,Shirts,2,2110,4220,2980,Karachi
+2025-10-09,UT-10180,Cotton Kurta,Kurtas,2,1980,3960,2882,Peshawar
+2025-10-10,UT-10181,Cotton Chinos,Trousers,2,2820,5640,4138,Peshawar
+2025-10-10,UT-10182,Wool Blend Coat,Outerwear,1,8120,8120,5910,Karachi
+2025-10-10,UT-10183,Denim Jacket,Outerwear,1,4590,4590,3229,Sialkot
+2025-10-10,UT-10184,Leather Loafers,Footwear,1,5390,5390,3951,Multan
+2025-10-11,UT-10185,Printed T-Shirt,Shirts,2,1510,3020,2162,Islamabad
+2025-10-11,UT-10186,White Formal Shirt,Shirts,2,2670,5340,3822,Sialkot
+2025-10-11,UT-10187,Checkered Casual Shirt,Shirts,2,2160,4320,3240,Multan
+2025-10-11,UT-10188,Slim Fit Jeans,Trousers,2,3130,6260,4558,Sialkot
+2025-10-11,UT-10189,Leather Jacket,Outerwear,1,8410,8410,5848,Hyderabad
+2025-10-12,UT-10190,Checkered Casual Shirt,Shirts,2,2090,4180,2962,Rawalpindi
+2025-10-13,UT-10191,Slim Fit Jeans,Trousers,2,3240,6480,4924,Lahore
+2025-10-13,UT-10192,Leather Belt,Accessories,2,1190,2380,1690,Karachi
+2025-10-14,UT-10193,Leather Jacket,Outerwear,1,8390,8390,5979,Islamabad
+2025-10-14,UT-10194,Puffer Jacket,Outerwear,1,5940,5940,4296,Islamabad
+2025-10-15,UT-10195,Classic Blue Shirt,Shirts,2,2430,4860,3846,Hyderabad
+2025-10-15,UT-10196,Classic Blue Shirt,Shirts,2,2470,4940,4058,Rawalpindi
+2025-10-15,UT-10197,Slim Fit Jeans,Trousers,2,3270,6540,4668,Peshawar
+2025-10-16,UT-10198,Silk Dupatta,Accessories,2,4410,8820,4172,Sialkot
+2025-10-17,UT-10199,Formal Dress Pants,Trousers,1,3040,3040,2140,Karachi
+2025-10-18,UT-10200,Leather Belt,Accessories,2,1200,2400,1644,Sialkot
+2025-10-19,UT-10201,Classic Blue Shirt,Shirts,2,2350,4700,3882,Faisalabad
+2025-10-19,UT-10202,Classic Blue Shirt,Shirts,2,2460,4920,3978,Multan
+2025-10-19,UT-10203,White Formal Shirt,Shirts,2,2580,5160,3710,Multan
+2025-10-19,UT-10204,Slim Fit Jeans,Trousers,2,3230,6460,4754,Islamabad
+2025-10-19,UT-10205,Cotton Chinos,Trousers,2,2760,5520,4080,Lahore
+2025-10-19,UT-10206,Embroidered Kurta,Kurtas,2,3580,7160,4748,Islamabad
+2025-10-19,UT-10207,Cotton Kurta,Kurtas,2,1950,3900,2864,Gujranwala
+2025-10-19,UT-10208,Denim Jacket,Outerwear,1,4400,4400,3120,Multan
+2025-10-19,UT-10209,Leather Belt,Accessories,2,1180,2360,1654,Multan
+2025-10-20,UT-10210,Slim Fit Jeans,Trousers,2,3110,6220,4478,Karachi
+2025-10-20,UT-10211,Wedding Sherwani Kurta,Kurtas,1,6600,6600,4304,Hyderabad
+2025-10-20,UT-10212,Cotton Cap,Accessories,2,870,1740,1268,Gujranwala
+2025-10-21,UT-10213,Leather Loafers,Footwear,1,5600,5600,4069,Gujranwala
+2025-10-21,UT-10214,Clearance Chappal,Footwear,2,590,1180,1252,Sialkot
+2025-10-22,UT-10215,Classic Blue Shirt,Shirts,3,2420,7260,6168,Rawalpindi
+2025-10-22,UT-10216,Classic Blue Shirt,Shirts,2,2430,4860,3898,Peshawar
+2025-10-22,UT-10217,Formal Dress Pants,Trousers,1,3030,3030,2083,Peshawar
+2025-10-23,UT-10218,White Formal Shirt,Shirts,2,2530,5060,3620,Faisalabad
+2025-10-23,UT-10219,Leather Jacket,Outerwear,1,8580,8580,6356,Hyderabad
+2025-10-23,UT-10220,Clearance Chappal,Footwear,1,590,590,593,Sialkot
+2025-10-24,UT-10221,Classic Blue Shirt,Shirts,2,2460,4920,3878,Multan
+2025-10-25,UT-10222,Leather Belt,Accessories,2,1220,2440,1744,Faisalabad
+2025-10-26,UT-10223,Classic Blue Shirt,Shirts,3,2360,7080,5874,Faisalabad
+2025-10-26,UT-10224,Classic Blue Shirt,Shirts,2,2380,4760,3840,Hyderabad
+2025-10-26,UT-10225,Checkered Casual Shirt,Shirts,2,2040,4080,3020,Rawalpindi
+2025-10-26,UT-10226,Cotton Cap,Accessories,2,830,1660,1136,Sialkot
+2025-10-26,UT-10227,Leather Loafers,Footwear,1,5610,5610,4101,Multan
+2025-10-27,UT-10228,Classic Blue Shirt,Shirts,3,2460,7380,6159,Karachi
+2025-10-27,UT-10229,Classic Blue Shirt,Shirts,2,2430,4860,3920,Peshawar
+2025-10-27,UT-10230,Printed T-Shirt,Shirts,2,1490,2980,2124,Islamabad
+2025-10-28,UT-10231,Cotton Chinos,Trousers,1,2760,2760,1987,Multan
+2025-10-28,UT-10232,Silk Dupatta,Accessories,2,4620,9240,4416,Gujranwala
+2025-10-28,UT-10233,Silk Dupatta,Accessories,2,4400,8800,4146,Hyderabad
+2025-10-29,UT-10234,Classic Blue Shirt,Shirts,2,2440,4880,4134,Peshawar
+2025-10-29,UT-10235,Cotton Kurta,Kurtas,2,2030,4060,2878,Sialkot
+2025-10-29,UT-10236,Denim Jacket,Outerwear,1,4460,4460,3308,Lahore
+2025-10-29,UT-10237,Woolen Scarf,Accessories,2,960,1920,1354,Sialkot
+2025-10-29,UT-10238,Leather Loafers,Footwear,1,5440,5440,3931,Lahore
+2025-10-30,UT-10239,Printed T-Shirt,Shirts,2,1500,3000,2194,Faisalabad
+2025-10-30,UT-10240,Embroidered Kurta,Kurtas,2,3480,6960,4806,Hyderabad
+2025-10-31,UT-10241,Printed T-Shirt,Shirts,2,1520,3040,2248,Multan
+2025-11-01,UT-10242,Classic Blue Shirt,Shirts,2,2370,4740,3814,Karachi
+2025-11-01,UT-10243,White Formal Shirt,Shirts,1,2530,2530,1776,Islamabad
+2025-11-01,UT-10244,Checkered Casual Shirt,Shirts,2,2160,4320,3238,Gujranwala
+2025-11-02,UT-10245,Classic Blue Shirt,Shirts,3,2410,7230,6114,Islamabad
+2025-11-02,UT-10246,White Formal Shirt,Shirts,2,2620,5240,3880,Hyderabad
+2025-11-02,UT-10247,Slim Fit Jeans,Trousers,2,3150,6300,4562,Lahore
+2025-11-02,UT-10248,Wedding Sherwani Kurta,Kurtas,1,6630,6630,4438,Sialkot
+2025-11-02,UT-10249,Wool Blend Coat,Outerwear,1,8070,8070,5457,Sialkot
+2025-11-04,UT-10250,Printed T-Shirt,Shirts,2,1480,2960,2058,Lahore
+2025-11-04,UT-10251,Slim Fit Jeans,Trousers,2,3140,6280,4592,Islamabad
+2025-11-04,UT-10252,Embroidered Kurta,Kurtas,1,3440,3440,2382,Hyderabad
+2025-11-04,UT-10253,Denim Jacket,Outerwear,1,4430,4430,3299,Sialkot
+2025-11-06,UT-10254,White Formal Shirt,Shirts,2,2540,5080,3582,Rawalpindi
+2025-11-06,UT-10255,Leather Jacket,Outerwear,1,8690,8690,6347,Karachi
+2025-11-06,UT-10256,Denim Jacket,Outerwear,1,4630,4630,3276,Peshawar
+2025-11-07,UT-10257,Printed T-Shirt,Shirts,2,1480,2960,2120,Islamabad
+2025-11-07,UT-10258,Cotton Kurta,Kurtas,2,1990,3980,2898,Sialkot
+2025-11-07,UT-10259,Woolen Scarf,Accessories,2,970,1940,1322,Hyderabad
+2025-11-07,UT-10260,Leather Loafers,Footwear,1,5370,5370,3864,Lahore
+2025-11-08,UT-10261,Slim Fit Jeans,Trousers,2,3140,6280,4734,Multan
+2025-11-08,UT-10262,Woolen Scarf,Accessories,2,960,1920,1350,Faisalabad
+2025-11-10,UT-10263,Classic Blue Shirt,Shirts,2,2420,4840,3886,Peshawar
+2025-11-10,UT-10264,Cotton Chinos,Trousers,1,2880,2880,2005,Lahore
+2025-11-10,UT-10265,Embroidered Kurta,Kurtas,2,3460,6920,4818,Karachi
+2025-11-10,UT-10266,Cotton Cap,Accessories,2,860,1720,1230,Multan
+2025-11-11,UT-10267,Leather Loafers,Footwear,1,5490,5490,3974,Faisalabad
+2025-11-12,UT-10268,Printed T-Shirt,Shirts,2,1510,3020,2244,Gujranwala
+2025-11-12,UT-10269,Slim Fit Jeans,Trousers,2,3220,6440,4858,Lahore
+2025-11-13,UT-10270,Classic Blue Shirt,Shirts,2,2400,4800,3866,Karachi
+2025-11-13,UT-10271,White Formal Shirt,Shirts,2,2530,5060,3750,Gujranwala
+2025-11-13,UT-10272,Checkered Casual Shirt,Shirts,2,2060,4120,3040,Gujranwala
+2025-11-13,UT-10273,Cotton Chinos,Trousers,1,2760,2760,1936,Karachi
+2025-11-13,UT-10274,Puffer Jacket,Outerwear,1,6130,6130,4312,Karachi
+2025-11-13,UT-10275,Denim Jacket,Outerwear,1,4530,4530,3199,Lahore
+2025-11-14,UT-10276,Embroidered Kurta,Kurtas,2,3490,6980,4982,Karachi
+2025-11-14,UT-10277,Wool Blend Coat,Outerwear,1,8230,8230,5567,Multan
+2025-11-14,UT-10278,Silk Dupatta,Accessories,2,4440,8880,4394,Islamabad
+2025-11-15,UT-10279,Slim Fit Jeans,Trousers,2,3270,6540,4838,Lahore
+2025-11-15,UT-10280,Embroidered Kurta,Kurtas,2,3460,6920,4880,Faisalabad
+2025-11-15,UT-10281,Cotton Kurta,Kurtas,2,2010,4020,2986,Faisalabad
+2025-11-16,UT-10282,Classic Blue Shirt,Shirts,3,2410,7230,6156,Multan
+2025-11-16,UT-10283,Classic Blue Shirt,Shirts,2,2430,4860,4022,Rawalpindi
+2025-11-16,UT-10284,Checkered Casual Shirt,Shirts,2,2110,4220,3112,Sialkot
+2025-11-18,UT-10285,Slim Fit Jeans,Trousers,2,3240,6480,4916,Multan
+2025-11-18,UT-10286,Formal Dress Pants,Trousers,1,3060,3060,2159,Islamabad
+2025-11-18,UT-10287,Puffer Jacket,Outerwear,1,6010,6010,4404,Faisalabad
+2025-11-18,UT-10288,Leather Belt,Accessories,2,1200,2400,1644,Gujranwala
+2025-11-19,UT-10289,Classic Blue Shirt,Shirts,2,2390,4780,3992,Islamabad
+2025-11-19,UT-10290,Leather Belt,Accessories,2,1220,2440,1746,Lahore
+2025-11-20,UT-10291,Silk Dupatta,Accessories,3,4530,13590,6348,Multan
+2025-11-20,UT-10292,Leather Belt,Accessories,2,1200,2400,1704,Islamabad
+2025-11-20,UT-10293,Leather Loafers,Footwear,1,5430,5430,3921,Karachi
+2025-11-20,UT-10294,Clearance Chappal,Footwear,2,610,1220,1418,Peshawar
+2025-11-21,UT-10295,Classic Blue Shirt,Shirts,2,2360,4720,3732,Gujranwala
+2025-11-21,UT-10296,Printed T-Shirt,Shirts,2,1470,2940,2124,Gujranwala
+2025-11-21,UT-10297,Wool Blend Coat,Outerwear,1,7810,7810,5384,Faisalabad
+2025-11-22,UT-10298,Checkered Casual Shirt,Shirts,2,2120,4240,3136,Islamabad
+2025-11-22,UT-10299,Formal Dress Pants,Trousers,1,3030,3030,2108,Karachi
+2025-11-22,UT-10300,Formal Dress Pants,Trousers,2,3020,6040,4160,Islamabad
+2025-11-23,UT-10301,Printed T-Shirt,Shirts,2,1530,3060,2118,Gujranwala
+2025-11-23,UT-10302,White Formal Shirt,Shirts,2,2590,5180,3728,Rawalpindi
+2025-11-23,UT-10303,White Formal Shirt,Shirts,1,2530,2530,1778,Lahore
+2025-11-23,UT-10304,Formal Dress Pants,Trousers,2,3030,6060,4384,Rawalpindi
+2025-11-23,UT-10305,Wedding Sherwani Kurta,Kurtas,1,6420,6420,4454,Multan
+2025-11-24,UT-10306,Wedding Sherwani Kurta,Kurtas,1,6620,6620,4309,Hyderabad
+2025-11-25,UT-10307,Embroidered Kurta,Kurtas,1,3420,3420,2328,Gujranwala
+2025-11-25,UT-10308,Cotton Kurta,Kurtas,2,1960,3920,2946,Hyderabad
+2025-11-26,UT-10309,Classic Blue Shirt,Shirts,2,2350,4700,3926,Faisalabad
+2025-11-26,UT-10310,Wedding Sherwani Kurta,Kurtas,1,6650,6650,4465,Sialkot
+2025-11-26,UT-10311,Leather Jacket,Outerwear,1,8390,8390,6064,Sialkot
+2025-11-26,UT-10312,Clearance Chappal,Footwear,2,610,1220,1322,Sialkot
+2025-11-27,UT-10313,Classic Blue Shirt,Shirts,3,2380,7140,5880,Gujranwala
+2025-11-27,UT-10314,Cotton Chinos,Trousers,1,2730,2730,1954,Multan
+2025-11-27,UT-10315,Formal Dress Pants,Trousers,1,2990,2990,2101,Multan
+2025-11-27,UT-10316,Clearance Chappal,Footwear,2,610,1220,1348,Faisalabad
+2025-11-28,UT-10317,Classic Blue Shirt,Shirts,2,2420,4840,3930,Sialkot
+2025-11-28,UT-10318,Checkered Casual Shirt,Shirts,2,2130,4260,3180,Faisalabad
+2025-11-28,UT-10319,Slim Fit Jeans,Trousers,2,3130,6260,4674,Karachi
+2025-11-28,UT-10320,Cotton Chinos,Trousers,2,2760,5520,4096,Multan
+2025-11-28,UT-10321,Wool Blend Coat,Outerwear,1,8160,8160,5793,Multan
+2025-11-28,UT-10322,Puffer Jacket,Outerwear,1,6060,6060,4390,Karachi
+2025-11-28,UT-10323,Leather Loafers,Footwear,1,5530,5530,4001,Faisalabad
+2025-11-29,UT-10324,Cotton Chinos,Trousers,2,2810,5620,3910,Sialkot
+2025-11-29,UT-10325,Cotton Kurta,Kurtas,2,2030,4060,2852,Faisalabad
+2025-11-29,UT-10326,Cotton Cap,Accessories,2,860,1720,1256,Lahore
+2025-11-30,UT-10327,Classic Blue Shirt,Shirts,2,2360,4720,3720,Hyderabad
+2025-11-30,UT-10328,Classic Blue Shirt,Shirts,2,2380,4760,3930,Gujranwala
+2025-11-30,UT-10329,Leather Jacket,Outerwear,1,8700,8700,6441,Multan
+2025-12-01,UT-10330,Slim Fit Jeans,Trousers,2,3140,6280,4630,Lahore
+2025-12-02,UT-10331,White Formal Shirt,Shirts,1,2530,2530,1810,Rawalpindi
+2025-12-02,UT-10332,Formal Dress Pants,Trousers,2,3040,6080,4466,Lahore
+2025-12-02,UT-10333,Silk Dupatta,Accessories,3,4500,13500,6444,Multan
+2025-12-03,UT-10334,Classic Blue Shirt,Shirts,3,2410,7230,6135,Peshawar
+2025-12-03,UT-10335,Embroidered Kurta,Kurtas,1,3490,3490,2399,Hyderabad
+2025-12-03,UT-10336,Puffer Jacket,Outerwear,1,6070,6070,4444,Multan
+2025-12-03,UT-10337,Woolen Scarf,Accessories,2,950,1900,1350,Gujranwala
+2025-12-03,UT-10338,Cotton Cap,Accessories,2,850,1700,1184,Sialkot
+2025-12-04,UT-10339,Classic Blue Shirt,Shirts,2,2350,4700,3894,Gujranwala
+2025-12-04,UT-10340,Wedding Sherwani Kurta,Kurtas,1,6400,6400,4342,Faisalabad
+2025-12-04,UT-10341,Wool Blend Coat,Outerwear,1,8110,8110,5606,Lahore
+2025-12-04,UT-10342,Cotton Cap,Accessories,2,860,1720,1232,Rawalpindi
+2025-12-05,UT-10343,Checkered Casual Shirt,Shirts,2,2050,4100,3098,Rawalpindi
+2025-12-05,UT-10344,Embroidered Kurta,Kurtas,2,3600,7200,4992,Sialkot
+2025-12-05,UT-10345,Embroidered Kurta,Kurtas,1,3470,3470,2362,Sialkot
+2025-12-05,UT-10346,Leather Belt,Accessories,2,1170,2340,1558,Faisalabad
+2025-12-06,UT-10347,Slim Fit Jeans,Trousers,2,3270,6540,4868,Karachi
+2025-12-06,UT-10348,Slim Fit Jeans,Trousers,2,3210,6420,4704,Sialkot
+2025-12-06,UT-10349,Formal Dress Pants,Trousers,1,3030,3030,2210,Islamabad
+2025-12-07,UT-10350,Slim Fit Jeans,Trousers,2,3190,6380,4754,Lahore
+2025-12-07,UT-10351,Slim Fit Jeans,Trousers,2,3190,6380,4662,Rawalpindi
+2025-12-07,UT-10352,Embroidered Kurta,Kurtas,1,3540,3540,2374,Sialkot
+2025-12-07,UT-10353,Wool Blend Coat,Outerwear,1,7930,7930,5343,Islamabad
+2025-12-07,UT-10354,Silk Dupatta,Accessories,2,4500,9000,4310,Islamabad
+2025-12-08,UT-10355,Puffer Jacket,Outerwear,1,5860,5860,4287,Peshawar
+2025-12-09,UT-10356,Cotton Kurta,Kurtas,2,2040,4080,2942,Faisalabad
+2025-12-09,UT-10357,Wool Blend Coat,Outerwear,1,7920,7920,5636,Karachi
+2025-12-09,UT-10358,Leather Jacket,Outerwear,1,8500,8500,6290,Multan
+2025-12-10,UT-10359,Classic Blue Shirt,Shirts,2,2360,4720,3762,Peshawar
+2025-12-10,UT-10360,Printed T-Shirt,Shirts,2,1470,2940,2086,Karachi
+2025-12-10,UT-10361,Cotton Chinos,Trousers,2,2840,5680,4174,Peshawar
+2025-12-11,UT-10362,Printed T-Shirt,Shirts,2,1470,2940,2118,Faisalabad
+2025-12-11,UT-10363,Checkered Casual Shirt,Shirts,2,2150,4300,3040,Karachi
+2025-12-11,UT-10364,Cotton Chinos,Trousers,2,2770,5540,4080,Sialkot
+2025-12-11,UT-10365,Cotton Chinos,Trousers,2,2830,5660,4078,Islamabad
+2025-12-11,UT-10366,Cotton Chinos,Trousers,2,2780,5560,4124,Lahore
+2025-12-11,UT-10367,Formal Dress Pants,Trousers,1,3030,3030,2115,Islamabad
+2025-12-11,UT-10368,Embroidered Kurta,Kurtas,2,3430,6860,4766,Rawalpindi
+2025-12-11,UT-10369,Wool Blend Coat,Outerwear,1,7770,7770,5559,Multan
+2025-12-11,UT-10370,Leather Jacket,Outerwear,1,8740,8740,6438,Islamabad
+2025-12-11,UT-10371,Puffer Jacket,Outerwear,1,5850,5850,4329,Sialkot
+2025-12-11,UT-10372,Puffer Jacket,Outerwear,1,5970,5970,4340,Sialkot
+2025-12-11,UT-10373,Denim Jacket,Outerwear,1,4580,4580,3248,Karachi
+2025-12-12,UT-10374,Classic Blue Shirt,Shirts,2,2410,4820,3956,Multan
+2025-12-12,UT-10375,Leather Jacket,Outerwear,1,8530,8530,6087,Peshawar
+2025-12-12,UT-10376,Clearance Chappal,Footwear,2,600,1200,1444,Multan
+2025-12-13,UT-10377,Classic Blue Shirt,Shirts,3,2450,7350,6024,Karachi
+2025-12-13,UT-10378,Checkered Casual Shirt,Shirts,2,2100,4200,3136,Hyderabad
+2025-12-13,UT-10379,Wedding Sherwani Kurta,Kurtas,1,6590,6590,4309,Karachi
+2025-12-13,UT-10380,Clearance Chappal,Footwear,2,610,1220,1448,Hyderabad
+2025-12-14,UT-10381,Classic Blue Shirt,Shirts,2,2360,4720,3976,Rawalpindi
+2025-12-14,UT-10382,Classic Blue Shirt,Shirts,2,2340,4680,3810,Rawalpindi
+2025-12-14,UT-10383,Classic Blue Shirt,Shirts,2,2370,4740,3788,Peshawar
+2025-12-14,UT-10384,Printed T-Shirt,Shirts,2,1500,3000,2196,Rawalpindi
+2025-12-15,UT-10385,Formal Dress Pants,Trousers,2,3030,6060,4342,Islamabad
+2025-12-15,UT-10386,Clearance Chappal,Footwear,2,580,1160,1356,Rawalpindi
+2025-12-16,UT-10387,Classic Blue Shirt,Shirts,3,2360,7080,5718,Faisalabad
+2025-12-16,UT-10388,White Formal Shirt,Shirts,2,2610,5220,3722,Lahore
+2025-12-16,UT-10389,Checkered Casual Shirt,Shirts,2,2150,4300,3178,Gujranwala
+2025-12-17,UT-10390,Checkered Casual Shirt,Shirts,2,2040,4080,2966,Multan
+2025-12-17,UT-10391,Wedding Sherwani Kurta,Kurtas,1,6330,6330,4329,Peshawar
+2025-12-17,UT-10392,Leather Belt,Accessories,2,1210,2420,1724,Islamabad
+2025-12-18,UT-10393,Classic Blue Shirt,Shirts,2,2350,4700,3918,Islamabad
+2025-12-18,UT-10394,Classic Blue Shirt,Shirts,2,2470,4940,4050,Peshawar
+2025-12-18,UT-10395,Cotton Kurta,Kurtas,1,2020,2020,1497,Faisalabad
+2025-12-18,UT-10396,Leather Jacket,Outerwear,1,8690,8690,6147,Karachi
+2025-12-18,UT-10397,Woolen Scarf,Accessories,2,970,1940,1376,Karachi
+2025-12-19,UT-10398,Wedding Sherwani Kurta,Kurtas,1,6570,6570,4292,Rawalpindi
+2025-12-20,UT-10399,Cotton Chinos,Trousers,1,2820,2820,1984,Karachi
+2025-12-20,UT-10400,Leather Jacket,Outerwear,1,8720,8720,6075,Sialkot
+2025-12-21,UT-10401,Classic Blue Shirt,Shirts,3,2460,7380,6171,Lahore
+2025-12-21,UT-10402,Embroidered Kurta,Kurtas,1,3510,3510,2461,Peshawar
+2025-12-21,UT-10403,Wool Blend Coat,Outerwear,1,8040,8040,5829,Peshawar
+2025-12-21,UT-10404,Denim Jacket,Outerwear,1,4400,4400,3260,Gujranwala
+2025-12-21,UT-10405,Leather Loafers,Footwear,1,5540,5540,4007,Islamabad
+2025-12-22,UT-10406,White Formal Shirt,Shirts,2,2540,5080,3548,Rawalpindi
+2025-12-22,UT-10407,Slim Fit Jeans,Trousers,2,3120,6240,4762,Lahore
+2025-12-22,UT-10408,Embroidered Kurta,Kurtas,2,3420,6840,4888,Faisalabad
+2025-12-23,UT-10409,Embroidered Kurta,Kurtas,1,3520,3520,2346,Gujranwala
+2025-12-23,UT-10410,Wedding Sherwani Kurta,Kurtas,1,6570,6570,4505,Rawalpindi
+2025-12-23,UT-10411,Leather Loafers,Footwear,1,5450,5450,3996,Peshawar
+2025-12-24,UT-10412,White Formal Shirt,Shirts,2,2540,5080,3600,Faisalabad
+2025-12-24,UT-10413,Checkered Casual Shirt,Shirts,2,2120,4240,3064,Karachi
+2025-12-24,UT-10414,Embroidered Kurta,Kurtas,2,3420,6840,4556,Hyderabad
+2025-12-24,UT-10415,Leather Loafers,Footwear,1,5520,5520,4042,Multan
+2025-12-25,UT-10416,Classic Blue Shirt,Shirts,3,2360,7080,5661,Peshawar
+2025-12-25,UT-10417,White Formal Shirt,Shirts,2,2660,5320,3818,Hyderabad
+2025-12-25,UT-10418,Formal Dress Pants,Trousers,1,2990,2990,2046,Hyderabad
+2025-12-25,UT-10419,Denim Jacket,Outerwear,1,4390,4390,3173,Rawalpindi
+2025-12-25,UT-10420,Silk Dupatta,Accessories,2,4580,9160,4370,Multan
+2025-12-25,UT-10421,Leather Loafers,Footwear,1,5480,5480,4067,Multan
+2025-12-26,UT-10422,Classic Blue Shirt,Shirts,3,2360,7080,5583,Hyderabad
+2025-12-27,UT-10423,Wool Blend Coat,Outerwear,1,7810,7810,5399,Karachi
+2025-12-27,UT-10424,Puffer Jacket,Outerwear,1,6150,6150,4547,Karachi
+2025-12-27,UT-10425,Leather Loafers,Footwear,1,5640,5640,4074,Faisalabad
+2025-12-28,UT-10426,Classic Blue Shirt,Shirts,2,2340,4680,3812,Lahore
+2025-12-28,UT-10427,Slim Fit Jeans,Trousers,2,3130,6260,4784,Karachi
+2025-12-28,UT-10428,Cotton Kurta,Kurtas,2,2020,4040,2926,Islamabad
+2025-12-28,UT-10429,Cotton Kurta,Kurtas,2,2000,4000,2828,Hyderabad
+2025-12-29,UT-10430,White Formal Shirt,Shirts,2,2530,5060,3772,Peshawar
+2025-12-29,UT-10431,Formal Dress Pants,Trousers,1,2940,2940,2095,Sialkot
+2025-12-29,UT-10432,Denim Jacket,Outerwear,1,4420,4420,3345,Lahore
+2025-12-30,UT-10433,Slim Fit Jeans,Trousers,2,3120,6240,4478,Lahore
+2025-12-30,UT-10434,Wedding Sherwani Kurta,Kurtas,1,6660,6660,4549,Sialkot
+2025-12-30,UT-10435,Wool Blend Coat,Outerwear,1,8050,8050,5835,Islamabad
+2025-12-30,UT-10436,Leather Loafers,Footwear,1,5380,5380,4044,Rawalpindi
+2025-12-31,UT-10437,Cotton Kurta,Kurtas,2,1960,3920,2826,Lahore
+2025-12-31,UT-10438,Denim Jacket,Outerwear,1,4370,4370,3209,Peshawar
+2025-12-31,UT-10439,Woolen Scarf,Accessories,2,960,1920,1294,Karachi
+2026-01-01,UT-10440,White Formal Shirt,Shirts,1,2630,2630,1857,Gujranwala
+2026-01-01,UT-10441,White Formal Shirt,Shirts,2,2580,5160,3670,Hyderabad
+2026-01-01,UT-10442,Slim Fit Jeans,Trousers,2,3210,6420,4636,Islamabad
+2026-01-01,UT-10443,Cotton Kurta,Kurtas,2,1970,3940,2852,Peshawar
+2026-01-01,UT-10444,Woolen Scarf,Accessories,2,920,1840,1326,Karachi
+2026-01-02,UT-10445,Slim Fit Jeans,Trousers,2,3220,6440,4800,Peshawar
+2026-01-02,UT-10446,Wool Blend Coat,Outerwear,1,8110,8110,5709,Peshawar
+2026-01-03,UT-10447,Classic Blue Shirt,Shirts,3,2450,7350,5928,Karachi
+2026-01-03,UT-10448,White Formal Shirt,Shirts,2,2610,5220,3894,Hyderabad
+2026-01-03,UT-10449,Checkered Casual Shirt,Shirts,2,2100,4200,3108,Hyderabad
+2026-01-03,UT-10450,Formal Dress Pants,Trousers,2,2910,5820,4166,Faisalabad
+2026-01-04,UT-10451,Leather Loafers,Footwear,1,5660,5660,4096,Sialkot
+2026-01-05,UT-10452,Slim Fit Jeans,Trousers,2,3200,6400,4792,Karachi
+2026-01-05,UT-10453,Cotton Kurta,Kurtas,2,1950,3900,2874,Sialkot
+2026-01-05,UT-10454,Cotton Cap,Accessories,2,850,1700,1220,Islamabad
+2026-01-06,UT-10455,Cotton Chinos,Trousers,1,2770,2770,2025,Multan
+2026-01-06,UT-10456,Leather Jacket,Outerwear,1,8680,8680,6230,Multan
+2026-01-06,UT-10457,Puffer Jacket,Outerwear,1,6180,6180,4360,Faisalabad
+2026-01-07,UT-10458,Embroidered Kurta,Kurtas,2,3570,7140,4978,Faisalabad
+2026-01-07,UT-10459,Wedding Sherwani Kurta,Kurtas,1,6620,6620,4331,Gujranwala
+2026-01-08,UT-10460,Printed T-Shirt,Shirts,2,1480,2960,2208,Lahore
+2026-01-08,UT-10461,Embroidered Kurta,Kurtas,2,3590,7180,4778,Multan
+2026-01-08,UT-10462,Cotton Kurta,Kurtas,2,2050,4100,2938,Gujranwala
+2026-01-08,UT-10463,Wool Blend Coat,Outerwear,1,8210,8210,5650,Rawalpindi
+2026-01-09,UT-10464,White Formal Shirt,Shirts,2,2630,5260,3720,Multan
+2026-01-09,UT-10465,Checkered Casual Shirt,Shirts,2,2130,4260,3110,Lahore
+2026-01-09,UT-10466,Checkered Casual Shirt,Shirts,2,2110,4220,3104,Lahore
+2026-01-09,UT-10467,Cotton Chinos,Trousers,1,2770,2770,2022,Rawalpindi
+2026-01-09,UT-10468,Wedding Sherwani Kurta,Kurtas,1,6620,6620,4367,Sialkot
+2026-01-09,UT-10469,Leather Jacket,Outerwear,1,8660,8660,6421,Peshawar
+2026-01-09,UT-10470,Woolen Scarf,Accessories,2,950,1900,1316,Multan
+2026-01-10,UT-10471,Classic Blue Shirt,Shirts,2,2360,4720,3790,Islamabad
+2026-01-11,UT-10472,Wool Blend Coat,Outerwear,1,8080,8080,5577,Gujranwala
+2026-01-11,UT-10473,Woolen Scarf,Accessories,2,940,1880,1282,Islamabad
+2026-01-12,UT-10474,Classic Blue Shirt,Shirts,2,2350,4700,3798,Multan
+2026-01-12,UT-10475,Printed T-Shirt,Shirts,2,1470,2940,2158,Islamabad
+2026-01-13,UT-10476,Puffer Jacket,Outerwear,1,6060,6060,4240,Islamabad
+2026-01-14,UT-10477,Leather Belt,Accessories,2,1180,2360,1672,Lahore
+2026-01-15,UT-10478,Classic Blue Shirt,Shirts,2,2400,4800,4006,Faisalabad
+2026-01-15,UT-10479,Classic Blue Shirt,Shirts,2,2350,4700,3762,Multan
+2026-01-15,UT-10480,Classic Blue Shirt,Shirts,3,2350,7050,5610,Hyderabad
+2026-01-15,UT-10481,Denim Jacket,Outerwear,1,4600,4600,3306,Gujranwala
+2026-01-16,UT-10482,Silk Dupatta,Accessories,2,4480,8960,4310,Gujranwala
+2026-01-17,UT-10483,Checkered Casual Shirt,Shirts,2,2110,4220,3140,Peshawar
+2026-01-17,UT-10484,Slim Fit Jeans,Trousers,2,3250,6500,4762,Islamabad
+2026-01-17,UT-10485,Slim Fit Jeans,Trousers,2,3230,6460,4864,Sialkot
+2026-01-17,UT-10486,Leather Jacket,Outerwear,1,8470,8470,5948,Multan
+2026-01-18,UT-10487,Leather Jacket,Outerwear,1,8500,8500,6051,Peshawar
+2026-01-18,UT-10488,Puffer Jacket,Outerwear,1,5860,5860,4338,Gujranwala
+2026-01-18,UT-10489,Denim Jacket,Outerwear,1,4540,4540,3251,Faisalabad
+2026-01-19,UT-10490,Cotton Chinos,Trousers,2,2820,5640,3906,Rawalpindi
+2026-01-20,UT-10491,Clearance Chappal,Footwear,1,610,610,657,Gujranwala
+2026-01-21,UT-10492,Puffer Jacket,Outerwear,1,5900,5900,4353,Hyderabad
+2026-01-22,UT-10493,Wool Blend Coat,Outerwear,1,7980,7980,5491,Multan
+2026-01-22,UT-10494,Clearance Chappal,Footwear,2,580,1160,1400,Lahore
+2026-01-23,UT-10495,Cotton Chinos,Trousers,2,2870,5740,4158,Lahore
+2026-01-23,UT-10496,Leather Belt,Accessories,2,1210,2420,1678,Peshawar
+2026-01-24,UT-10497,Classic Blue Shirt,Shirts,2,2460,4920,3950,Rawalpindi
+2026-01-24,UT-10498,Classic Blue Shirt,Shirts,2,2380,4760,3766,Sialkot
+2026-01-24,UT-10499,White Formal Shirt,Shirts,2,2650,5300,3778,Faisalabad
+2026-01-24,UT-10500,Slim Fit Jeans,Trousers,2,3230,6460,4848,Multan
+2026-01-24,UT-10501,Leather Loafers,Footwear,1,5390,5390,3836,Rawalpindi
+2026-01-24,UT-10502,Leather Loafers,Footwear,1,5410,5410,3859,Karachi
+2026-01-25,UT-10503,Classic Blue Shirt,Shirts,3,2420,7260,5814,Multan
+2026-01-26,UT-10504,Formal Dress Pants,Trousers,2,2980,5960,4340,Rawalpindi
+2026-01-26,UT-10505,Formal Dress Pants,Trousers,1,3040,3040,2241,Multan
+2026-01-26,UT-10506,Denim Jacket,Outerwear,1,4490,4490,3219,Karachi
+2026-01-27,UT-10507,Formal Dress Pants,Trousers,1,2960,2960,2069,Islamabad
+2026-01-27,UT-10508,Embroidered Kurta,Kurtas,2,3570,7140,5000,Karachi
+2026-01-27,UT-10509,Wool Blend Coat,Outerwear,1,8150,8150,5551,Peshawar
+2026-01-27,UT-10510,Puffer Jacket,Outerwear,1,6080,6080,4203,Hyderabad
+2026-01-27,UT-10511,Clearance Chappal,Footwear,2,590,1180,1264,Hyderabad
+2026-01-28,UT-10512,Embroidered Kurta,Kurtas,1,3400,3400,2423,Faisalabad
+2026-01-29,UT-10513,Classic Blue Shirt,Shirts,2,2380,4760,3862,Islamabad
+2026-01-29,UT-10514,Embroidered Kurta,Kurtas,1,3570,3570,2513,Rawalpindi
+2026-01-30,UT-10515,Cotton Kurta,Kurtas,2,2020,4040,2856,Multan
+2026-01-30,UT-10516,Silk Dupatta,Accessories,2,4550,9100,4536,Faisalabad
+2026-01-31,UT-10517,Classic Blue Shirt,Shirts,3,2430,7290,5982,Karachi
+2026-01-31,UT-10518,Embroidered Kurta,Kurtas,1,3410,3410,2328,Gujranwala
+2026-01-31,UT-10519,Wedding Sherwani Kurta,Kurtas,1,6430,6430,4411,Rawalpindi
+2026-01-31,UT-10520,Leather Loafers,Footwear,1,5400,5400,3984,Sialkot
