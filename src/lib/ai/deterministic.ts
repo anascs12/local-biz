@@ -20,7 +20,13 @@
 import type { Dataset } from "@/types/dataset";
 import type { AnalyticsResult, ProductMetrics } from "@/types/analytics";
 import type { Filters } from "@/context/FilterContext";
-import { formatNumber, formatPKR, formatPct, formatRange } from "@/lib/utils/format";
+import {
+  formatNumber,
+  formatPKR,
+  formatPct,
+  formatPeriod,
+  formatRange,
+} from "@/lib/utils/format";
 
 const NO_COST_STATEMENT =
   "Profit analysis is unavailable because this file does not include a cost column with enough coverage. " +
@@ -98,8 +104,9 @@ export function deterministicReport(
   );
   if (patterns.bestPeriod && patterns.worstPeriod) {
     out.push(
-      `The strongest period was ${patterns.bestPeriod.period} at ${formatPKR(patterns.bestPeriod.revenue)}; ` +
-        `the weakest was ${patterns.worstPeriod.period} at ${formatPKR(patterns.worstPeriod.revenue)}.`,
+      `The strongest period was ${formatPeriod(patterns.bestPeriod.period, analytics.timeSeries.granularity)} ` +
+        `at ${formatPKR(patterns.bestPeriod.revenue)}; the weakest was ` +
+        `${formatPeriod(patterns.worstPeriod.period, analytics.timeSeries.granularity)} at ${formatPKR(patterns.worstPeriod.revenue)}.`,
     );
   }
   if (patterns.weekendUpliftPct !== null && patterns.bestDayOfWeek) {
@@ -427,7 +434,7 @@ export function deterministicAnswer(
       `**What happened**\nRevenue ${movement(kpis.growthRatePct)} between the first and second half of this period, ` +
       `finishing at ${formatPKR(kpis.totalRevenue)} across ${formatNumber(kpis.totalOrders)} orders.` +
       (patterns.bestPeriod
-        ? ` The strongest period was ${patterns.bestPeriod.period} (${formatPKR(patterns.bestPeriod.revenue)}).`
+        ? ` The strongest period was ${formatPeriod(patterns.bestPeriod.period, analytics.timeSeries.granularity)} (${formatPKR(patterns.bestPeriod.revenue)}).`
         : "") +
       `\n\n**Recommended action**\n` +
       (declining.length

@@ -82,7 +82,15 @@ export function KpiCard({
       ) : (
         <>
           <div className="flex flex-wrap items-baseline gap-2">
-            <span className="nums text-kpi text-text-900">{value}</span>
+            {/*
+              §20.3 sets the KPI value at 32px and §20.6 sets a 6-across grid.
+              A full PKR figure ("Rs. 2,572,330") does not fit both at once and
+              wrapped onto two lines. This scales with viewport width and reaches
+              the specified 32px where there is room, rather than wrapping.
+            */}
+            <span className="nums whitespace-nowrap text-[clamp(1.125rem,1.45vw,2rem)] font-bold leading-[1.1] text-text-900">
+              {value}
+            </span>
             {typeof deltaPct === "number" && Number.isFinite(deltaPct) && (
               <DeltaPill value={deltaPct} suffix={formatDelta(deltaPct)} invert={invertDelta} />
             )}
